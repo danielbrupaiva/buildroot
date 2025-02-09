@@ -19,10 +19,8 @@ sha256  8e378ab93586eb55135d3bc119cce787f7324f48394777d00c34fa3d0be3303f  LICENS
 
 # New Kernel version
 # wget https://www.kernel.org/pub/linux/kernel/v6.x/sha256sums.asc
-# wget -q https://www.kernel.org/pub/linux/kernel/v6.x/sha256sums.asc && echo sha256$'\t'$(grep 'linux-6.12.8.*xz' sha256sums.asc) >> linux.hash
 sha256	2291da065ca04b715c89ee50362aec3f021a7414bc963f1b56736682c8122979  linux-6.12.8.tar.xz
 
 # New patches
 # https://cdn.kernel.org/pub/linux/kernel/projects/rt/6.12/sha256sums.asc
-# wget -q https://cdn.kernel.org/pub/linux/kernel/projects/rt/6.12/sha256sums.asc && echo sha256$'\t'$(grep 'patch-6.12.8.*.xz' sha256sums.asc) >> linux.hash
-sha256	47ac4fcf467c4f301934d2c62846eba5576fc4fb422a987f72e1283bd6ba283e  patch-6.12.8.xz
+sha256  e54f4d6571c1f7cf0c16023b38e3218714ba5d4fb8d5560f392bef7e79be1484  patch-6.12.8-rt8.patch.xz
